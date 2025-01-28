@@ -49,15 +49,13 @@
 
     .download {
 
-
-
         color: var(--light-color);
 
         span {
 
             padding-left: 0.5rem;
             color: var(--);
-            font-size: 10px;
+            font-size: 0.7rem;
         }
     }
 

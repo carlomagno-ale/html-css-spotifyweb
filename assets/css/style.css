@@ -174,4 +174,33 @@ main {
    
 }
 
+
+.filter {
+
+  
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+  a:link,
+  a:visited {
+
+    text-decoration: none;
+    color: var(--light-color);
+    padding-inline: 2rem;
+    padding-top: 1rem;
+
+  }
+
+  span:hover {
+
+    border-bottom: 2px solid greenyellow;
+
+
+
+  }
+
+
+
+
+}
 /* END MAIN */
