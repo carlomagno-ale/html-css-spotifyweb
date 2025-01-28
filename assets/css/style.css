@@ -36,14 +36,12 @@
 .sidebar {
 
     width: 230px;
-    height: 600px;
     background-color: black;
 }
 
 main {
 
     width: 400px;
-
     background-color: var(--main-color);
 
     .filter {
@@ -71,8 +69,8 @@ main {
 
 /*MAIN*/
 
-.music
-{
-  height: calc(100vh - 273px);
-  overflow-y: auto;
+main {
+
+    height: calc(100vh - 90px);
+    overflow-y: auto;
 }
