@@ -49,7 +49,7 @@
 
     .download {
 
-        
+
 
         color: var(--light-color);
 
@@ -60,6 +60,7 @@
             font-size: 10px;
         }
     }
+
     .user {
 
         align-items: center;
@@ -77,6 +78,18 @@
     .sidebar {
 
         width: 230px;
+    }
+
+    /*MAIN*/
+
+    .bt-upgrade {
+
+        a:hover {
+
+            font-size: 1rem;
+
+        }
+
     }
 
 }

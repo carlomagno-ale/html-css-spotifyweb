@@ -154,7 +154,8 @@ main {
     justify-content: flex-end;
     align-items: center;
 
-    a:link {
+    a:link,
+    a:visited {
 
         color: var(--light-color);
         text-decoration: none;
