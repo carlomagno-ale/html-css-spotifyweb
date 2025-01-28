@@ -50,26 +50,22 @@ body {
 
 main {
 
-
     background-color: var(--main-color);
-
-    .filter {
-
-        height: 95px;
-    }
 }
 
-
 .login {
-
 
     height: 85px;
     background-color: var(--less-dark-color);
 }
 
+.filter {
+
+    height: 95px;
+}
+
 .bottom {
-
-
+    
     height: 90px;
     background-color: var(--player-color);
 }
@@ -82,9 +78,9 @@ main {
 
     height: calc(100vh - 90px);
     overflow-y: auto;
+    
 }
 
-.music {}
 
 .logo {
 

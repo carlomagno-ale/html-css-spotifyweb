@@ -1,8 +1,6 @@
-/* 576px per telefoni in portrait */
+/* 576px */
 
-/* 768px per tablet */
-
-@media screen and (min-width:768px) {
+@media screen and (min-width:576px) {
 
 
     .logo {
@@ -42,6 +40,8 @@
     width: 230px;
 }
 
-/* 992px per laptop */
+/* 768px  */
 
-/* 1200px per dispotivi grandi */
+/* 992px  */
+
+/* 1200px */
