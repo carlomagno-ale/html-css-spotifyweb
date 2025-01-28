@@ -2,6 +2,34 @@
 
 /* 768px per tablet */
 
+@media screen and (min-width:768px) {
+
+
+    .logo {
+
+        display:none;
+    }
+    .logo-L {
+
+        width: 135px;
+        display: block;
+    }
+    
+
+
+.playlist {
+
+    display:block;
+    color: var(--light-color);
+
+    a:link {
+
+        color: var(--mid-color);
+    }
+}
+
+}
+
 /* 992px per laptop */
 
 /* 1200px per dispotivi grandi */

@@ -4,11 +4,11 @@
 
     --dark-color: black;
     --less-dark-color: #080b12;
+    --light-color: white;
     --main-color: #141922;
     --player-color: #282828;
+    --mid-color: #707070;
 }
-
-
 
 
 /* UTILITY */
@@ -26,7 +26,18 @@
     display: flex;
 }
 
+img {
+
+    display: block;
+    width: 100%;
+}
+
 /* COMMON REGION */
+
+body {
+
+    font-family: "Montserrat", serif;
+}
 
 
 
@@ -66,11 +77,35 @@ main {
     background-color: var(--player-color);
 }
 
-
 /*MAIN*/
 
 main {
 
     height: calc(100vh - 90px);
     overflow-y: auto;
+}
+
+.logo {
+
+    width: 30px;
+}
+
+.logo-L {
+
+    width: 135px;
+    display: none;
+}
+
+
+/*SIDEBAR*/
+
+.menu {
+
+    color: var(--light-color);
+    flex-direction: column;
+}
+
+.playlist {
+
+    display: none;
 }
