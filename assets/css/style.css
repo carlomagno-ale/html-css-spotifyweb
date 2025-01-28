@@ -40,24 +40,22 @@ body {
 }
 
 
-
-
 /*DEBUG*/
 
 .sidebar {
 
-    width: 230px;
+    width: 230vw;
     background-color: black;
 }
 
 main {
 
-    width: 400px;
+    width: 400vw;
     background-color: var(--main-color);
 
     .filter {
 
-        width: 400px;
+        width: 400vw;
         height: 95px;
     }
 }
@@ -65,17 +63,19 @@ main {
 
 .login {
 
-    width: 400px;
+    width: 400vw;
     height: 85px;
     background-color: var(--less-dark-color);
 }
 
 .bottom {
 
-    width: 630px;
+    width: 630vw;
     height: 90px;
     background-color: var(--player-color);
 }
+
+/* END DEBUG */
 
 /*MAIN*/
 
