@@ -45,6 +45,12 @@ main {
     width: 400px;
 
     background-color: var(--main-color);
+
+    .filter {
+
+        width: 400px;
+        height: 95px;
+    }
 }
 
 
@@ -63,3 +69,10 @@ main {
 }
 
 
+/*MAIN*/
+
+.music
+{
+  height: calc(100vh - 273px);
+  overflow-y: auto;
+}
