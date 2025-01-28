@@ -44,18 +44,17 @@ body {
 
 .sidebar {
 
-    width: 230vw;
+    width: 50px;
     background-color: black;
 }
 
 main {
 
-    width: 400vw;
+
     background-color: var(--main-color);
 
     .filter {
 
-        width: 400vw;
         height: 95px;
     }
 }
@@ -63,14 +62,14 @@ main {
 
 .login {
 
-    width: 400vw;
+
     height: 85px;
     background-color: var(--less-dark-color);
 }
 
 .bottom {
 
-    width: 630vw;
+
     height: 90px;
     background-color: var(--player-color);
 }
@@ -84,6 +83,8 @@ main {
     height: calc(100vh - 90px);
     overflow-y: auto;
 }
+
+.music {}
 
 .logo {
 

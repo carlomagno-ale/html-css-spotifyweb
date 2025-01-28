@@ -7,30 +7,35 @@
 
     .logo {
 
-        display:none;
+        display: none;
     }
+
     .logo-L {
 
         width: 135px;
         display: block;
     }
-    
 
 
-.playlist {
 
-    display:block;
-    color: var(--light-color);
+    .playlist {
 
-    a:link {
+        display: block;
+        color: var(--light-color);
 
-        color: var(--mid-color);
+        a:link {
+
+            color: var(--mid-color);
+        }
     }
+
 }
 
+.sidebar {
+
+    width: 230px;
 }
 
 /* 992px per laptop */
 
 /* 1200px per dispotivi grandi */
-
