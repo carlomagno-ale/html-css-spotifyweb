@@ -1,12 +1,65 @@
-/* COMMON REGION */
+/* COLORS */
+
+:root {
+
+    --dark-color: black;
+    --less-dark-color: #080b12;
+    --main-color: #141922;
+    --player-color: #282828;
+}
+
+
+
+
+/* UTILITY */
 
 * {
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px grey dashed;
+}
+
+.flex {
+
+    display: flex;
+}
+
+/* COMMON REGION */
+
+
+
+
+/*DEBUG*/
+
+.sidebar {
+
+    width: 230px;
+    height: 600px;
+    background-color: black;
+}
+
+main {
+
+    width: 400px;
+
+    background-color: var(--main-color);
 }
 
 
-/*debug*/
+.login {
+
+    width: 400px;
+    height: 85px;
+    background-color: var(--less-dark-color);
+}
+
+.bottom {
+
+    width: 630px;
+    height: 90px;
+    background-color: var(--player-color);
+}
+
 
