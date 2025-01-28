@@ -1,6 +1,13 @@
-/* 576px */
+/* 768 ///////////////////////////////////*/
 
-@media screen and (min-width:576px) {
+
+@media screen and (min-width:768px) {
+
+    main {
+        
+        /*debug*/
+        background-color: aquamarine;
+    }
 
 
     .logo {
@@ -14,13 +21,13 @@
         display: block;
     }
 
-.menu {
+    .menu {
 
-    span {
+        span {
 
-        display: unset;
+            display: unset;
+        }
     }
-}
 
     .playlist {
 
@@ -40,8 +47,25 @@
     width: 230px;
 }
 
-/* 768px  */
+/* 992///////////////////////////////////*/
 
-/* 992px  */
+@media screen and (min-width:992px) {
 
-/* 1200px */
+    main {
+
+        /*debug*/
+        background-color: brown;
+    }
+}
+
+/* 1200///////////////////////////////////*/
+
+
+@media screen and (min-width:1200px) {
+
+    main {
+
+        /*debug*/
+        background-color: violet;
+    }
+}

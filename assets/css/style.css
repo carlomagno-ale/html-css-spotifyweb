@@ -105,6 +105,11 @@ main {
 
         display: none;
     }
+
+    img {
+        width: 20px;
+        display: inline;
+    }
 }
 
 .playlist {
