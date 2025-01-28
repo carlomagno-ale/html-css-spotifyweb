@@ -65,7 +65,7 @@ main {
 }
 
 .bottom {
-    
+
     height: 90px;
     background-color: var(--player-color);
 }
@@ -78,7 +78,7 @@ main {
 
     height: calc(100vh - 90px);
     overflow-y: auto;
-    
+
 }
 
 
@@ -115,4 +115,36 @@ main {
 .playlist {
 
     display: none;
+
+}
+
+.us-do {
+
+    span {
+        display: none;
+    }
+}
+
+
+.download {
+
+    align-items: center;
+
+    img {
+
+        width: 20px;
+    }
+}
+
+
+.user-img {
+
+    background-image: url(/assets/img/profile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25px;
+    height: 25px;
+    background-color: var(--mid-color);
+    border-radius: 50%;
+
 }

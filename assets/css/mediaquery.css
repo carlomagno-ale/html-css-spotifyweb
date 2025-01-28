@@ -4,7 +4,7 @@
 @media screen and (min-width:768px) {
 
     main {
-        
+
         /*debug*/
         background-color: aquamarine;
     }
@@ -40,11 +40,45 @@
         }
     }
 
-}
+    .us-do {
 
-.sidebar {
+        span {
+            display: unset;
+        }
+    }
 
-    width: 230px;
+    .download {
+
+        
+
+        color: var(--light-color);
+
+        span {
+
+            padding-left: 0.5rem;
+            color: var(--);
+            font-size: 10px;
+        }
+    }
+    .user {
+
+        align-items: center;
+
+
+        span {
+
+            padding-left: 0.5rem;
+            color: var(--light-color);
+            font-size: small;
+        }
+
+    }
+
+    .sidebar {
+
+        width: 230px;
+    }
+
 }
 
 /* 992///////////////////////////////////*/
