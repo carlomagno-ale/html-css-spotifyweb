@@ -16,7 +16,13 @@
         display: block;
     }
 
+.menu {
 
+    span {
+
+        display: unset;
+    }
+}
 
     .playlist {
 

@@ -104,6 +104,11 @@ main {
 
     color: var(--light-color);
     flex-direction: column;
+
+    span {
+
+        display: none;
+    }
 }
 
 .playlist {
