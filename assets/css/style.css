@@ -192,7 +192,7 @@ main {
     justify-content: space-evenly;
     flex-wrap: wrap;
     font-size: 0.8rem;
-    
+
 
     a:link,
     a:visited {
@@ -214,7 +214,63 @@ main {
 
 /*RECENTLY PLAYED*/
 
+.recently-played {
 
+    display: flex;
+    flex-wrap: wrap;
 
+}
+
+.box-album {
+
+    width: 170px;
+    text-align: center;
+    line-height: 1.5rem;
+
+    :hover {
+
+        .overlay {
+
+            display: unset;
+        }
+    }
+
+    h4 {
+
+        padding-top: 0.5rem;
+        color: var(--light-color);
+    }
+
+    span {
+
+        color: var(--mid-color);
+    }
+}
+
+.cover {
+
+    position: relative;
+}
+
+.overlay {
+    
+    font-size: 3rem;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.586);
+    color: var(--light-color);
+
+}
+
+.overlay:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
 
 /* END MAIN */
