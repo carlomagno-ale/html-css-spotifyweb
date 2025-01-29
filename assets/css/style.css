@@ -214,16 +214,25 @@ main {
 
 /*RECENTLY PLAYED*/
 
-.recently-played {
+.title-gallery {
 
+    color: var(--light-color);
+    margin: 1rem;
+}
+
+.category {
+
+    margin: 1rem;
     display: flex;
     flex-wrap: wrap;
+
 
 }
 
 .box-album {
 
-    width: 170px;
+    max-width: 170px;
+    margin-right: 1rem;
     text-align: center;
     line-height: 1.5rem;
 
@@ -253,7 +262,7 @@ main {
 }
 
 .overlay {
-    
+
     font-size: 3rem;
     display: none;
     position: absolute;
