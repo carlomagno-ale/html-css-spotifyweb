@@ -42,6 +42,9 @@
 
     .us-do {
 
+        height: calc(100vh - 470px);
+        align-items: flex-start;
+        justify-content: flex-end;
         span {
             display: unset;
         }
@@ -50,9 +53,9 @@
     .download {
 
         align-items: center;
-    
+
         img {
-    
+
             width: 20px;
         }
     }
@@ -89,8 +92,9 @@
     }
 
     hr {
-
-        display: block;
+        
+     visibility: visible;
+     
     }
 
     /*MAIN*/
