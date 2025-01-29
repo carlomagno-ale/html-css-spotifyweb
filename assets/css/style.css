@@ -383,13 +383,14 @@ main {
 
 }
 
-.play-title {
+.play-album-title {
 
     line-height: 0.7rem;
     padding-left: 0.5rem;
 
     h5 {
         font-size: 0.8rem;
+        color: var(--light-color);
 
     }
 
