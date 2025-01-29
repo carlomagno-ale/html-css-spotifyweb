@@ -1,5 +1,17 @@
-/* 768 ///////////////////////////////////*/
+@media screen and (min-width:576px) {
 
+    .sidebar {
+
+        width: 50px;
+    }
+
+}
+
+
+
+
+
+/* 768 ///////////////////////////////////*/
 
 @media screen and (min-width:768px) {
 
@@ -7,6 +19,7 @@
 
         /*debug*/
         background-color: aquamarine;
+        width: calc(100vw - 230px);
     }
 
 
