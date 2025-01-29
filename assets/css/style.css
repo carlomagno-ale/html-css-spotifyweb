@@ -368,3 +368,36 @@ main {
 /* END MAIN //////////////*/
 
 /*BOTTOM ////////////////*/
+
+.play-album {
+
+    height: 100%;
+    align-items: center;
+    padding-left: 1rem;
+  
+}
+
+.mini-album {
+
+    max-width: 40px;
+
+}
+
+.play-title {
+
+    line-height: 0.7rem;
+    padding-left: 0.5rem;
+
+    h5 {
+        font-size: 0.8rem;
+
+    }
+
+
+    span {
+
+        font-size: 0.6rem;
+        font-weight: 600;
+        color: var(--mid-color);
+    }
+}
