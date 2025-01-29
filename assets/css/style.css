@@ -119,6 +119,7 @@ main {
 .us-do {
 
     span {
+        
         display: none;
     }
 }
@@ -276,6 +277,7 @@ main {
 }
 
 .overlay:before {
+
     content: '';
     display: inline-block;
     height: 100%;
