@@ -199,7 +199,7 @@ main {
 
         text-decoration: none;
         color: var(--light-color);
-        padding-inline: 2rem;
+        padding-inline: 1.5rem;
         padding-top: 1rem;
 
     }
