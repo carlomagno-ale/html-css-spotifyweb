@@ -237,6 +237,7 @@ main {
     h3 {
 
         color: var(--light-color);
+        font-size: 1.3rem;
     }
 
     span {
@@ -259,7 +260,6 @@ main {
 
     width: calc(100% / 2 - 1rem );
     text-align: center;
-    line-height: 1.5rem;
 
     :hover {
 
@@ -271,12 +271,14 @@ main {
 
     h4 {
 
+        font-size: 0.9rem;
         padding-top: 0.5rem;
         color: var(--light-color);
     }
 
     span {
 
+        font-size: 0.8rem;
         color: var(--mid-color);
     }
 }
