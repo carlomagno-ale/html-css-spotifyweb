@@ -113,8 +113,6 @@ main {
     }
 }
 
-
-
 .playlist {
 
     display: none;
@@ -124,6 +122,14 @@ main {
         background-color: var(--mid-color);
         color: var(--player-color);
         padding: 0.5rem;
+    }
+
+    ul {
+
+        list-style-type: none;
+        padding-top: 1rem;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
     }
 
 }
@@ -142,6 +148,14 @@ main {
 
         display: none;
     }
+
+    hr {
+        
+        width: 100%;
+        margin-block: 0.5rem;
+        border-color: var(--mid-color);
+        visibility: hidden;
+    }
 }
 
 .download {
@@ -150,8 +164,13 @@ main {
 
         width: 20px;
     }
-}
 
+    span {
+
+        color: var(--mid-color);
+        font-weight: 600;
+    }
+}
 
 .user-img {
 
@@ -165,15 +184,8 @@ main {
 
 }
 
-hr {
 
-    margin: auto;
-    width: 80%;
-    margin-block: 0.5rem;
-    border-color: var(--mid-color);
-    display: block;
-    visibility: hidden;
-}
+
 
 /* END SIDEBAR ////////////////*/
 

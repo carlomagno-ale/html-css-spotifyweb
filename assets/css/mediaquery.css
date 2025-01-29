@@ -35,10 +35,14 @@
         height: 30%;
         display: block;
         color: var(--light-color);
-
-        a:link {
+        margin-left: 1rem;
+    
+        a:link,
+        a:visited {
 
             color: var(--mid-color);
+            text-decoration: none;
+
         }
     }
 
@@ -47,6 +51,12 @@
         height: 35%;
         align-items: flex-start;
         justify-content: flex-end;
+        
+        hr {
+
+            visibility: visible;
+    
+        }
 
         span {
             display: unset;
@@ -94,11 +104,7 @@
         width: 230px;
     }
 
-    hr {
-
-        visibility: visible;
-
-    }
+   
 
     /*MAIN*/
 
