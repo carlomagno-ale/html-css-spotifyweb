@@ -17,6 +17,7 @@
 
     .logo-L {
 
+        height: 7%;
         width: 135px;
         display: block;
     }
@@ -31,6 +32,7 @@
 
     .playlist {
 
+        height: 30%;
         display: block;
         color: var(--light-color);
 
@@ -42,9 +44,10 @@
 
     .us-do {
 
-        height: calc(100vh - 470px);
+        height: 35%;
         align-items: flex-start;
         justify-content: flex-end;
+
         span {
             display: unset;
         }
@@ -92,9 +95,9 @@
     }
 
     hr {
-        
-     visibility: visible;
-     
+
+        visibility: visible;
+
     }
 
     /*MAIN*/
