@@ -49,6 +49,16 @@
 
     .download {
 
+        align-items: center;
+    
+        img {
+    
+            width: 20px;
+        }
+    }
+
+    .download {
+
         color: var(--light-color);
 
         span {

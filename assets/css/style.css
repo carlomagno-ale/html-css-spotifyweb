@@ -40,7 +40,6 @@ body {
     font-family: "Montserrat", serif;
 }
 
-
 /*STRUCTURE*/
 
 .sidebar {
@@ -61,7 +60,6 @@ main {
     background-color: var(--less-dark-color);
 }
 
-
 .bottom {
 
     height: 90px;
@@ -74,16 +72,14 @@ main {
 
 .sidebar {
 
-    div {
-
-        text-align: center;
-    }
-
+    height: calc(100vh - 90px)
 }
 
 .logo {
 
     width: 30px;
+    margin: auto;
+    padding-top: 0.5rem;
 }
 
 .logo-L {
@@ -95,6 +91,10 @@ main {
 
 .menu {
 
+    padding-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3rem;
     color: var(--light-color);
 
     span {
@@ -107,6 +107,7 @@ main {
         display: inline;
     }
 }
+
 
 .playlist {
 
@@ -123,16 +124,14 @@ main {
 
 .us-do {
 
+
     span {
 
         display: none;
     }
 }
 
-
 .download {
-
-    align-items: center;
 
     img {
 
@@ -162,9 +161,9 @@ hr {
     display: none;
 }
 
-/* END SIDEBAR */
+/* END SIDEBAR ////////////////*/
 
-/*MAIN*/
+/*MAIN ///////////////////////*/
 
 main {
 
@@ -203,7 +202,6 @@ main {
 
 .filter {
 
-
     justify-content: center;
     flex-wrap: wrap;
     font-size: 0.8rem;
@@ -227,7 +225,7 @@ main {
 
 }
 
-/*RECENTLY PLAYED*/
+/*GALLERY //////////////*/
 
 .title-gallery {
 
@@ -258,7 +256,7 @@ main {
 
 .box-album {
 
-    width: calc(100% / 2 - 1rem );
+    width: calc(100% / 2 - 1rem);
     text-align: center;
 
     :hover {
@@ -311,4 +309,4 @@ main {
     vertical-align: middle;
 }
 
-/* END MAIN */
+/* END MAIN //////////////*/
