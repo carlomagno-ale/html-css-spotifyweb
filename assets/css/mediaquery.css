@@ -5,7 +5,7 @@
     main {
 
         /*debug*/
-        background-color: aquamarine;
+        background-color: rgba(18, 68, 51, 0.705);
         width: calc(100vw - 230px);
     }
 
@@ -99,7 +99,7 @@
     main {
 
         /*debug*/
-        background-color: brown;
+        background-color: rgb(94, 25, 25);
     }
 }
 
@@ -111,6 +111,6 @@
     main {
 
         /*debug*/
-        background-color: violet;
+        background-color: rgb(104, 50, 104);
     }
 }
