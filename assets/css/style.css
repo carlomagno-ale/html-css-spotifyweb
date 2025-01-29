@@ -40,13 +40,12 @@ body {
 }
 
 
-/*DEBUG*/
+/*STRUCTURE*/
 
 .sidebar {
 
     width: 50px;
-    background-color: black;
-
+    background-color: var(--dark-color);
 }
 
 main {
@@ -84,6 +83,7 @@ main {
 .logo-L {
 
     width: 135px;
+    margin: 1.5rem;
     display: none;
 }
 
@@ -106,6 +106,13 @@ main {
 .playlist {
 
     display: none;
+
+    i {
+
+        background-color: var(--mid-color);
+        color: var(--player-color);
+        padding: 0.5rem;
+    }
 
 }
 
