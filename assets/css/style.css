@@ -101,7 +101,6 @@ main {
     align-items: center;
     padding-top: 0.5rem;
     gap: 0.5rem;
-    color: var(--light-color);
 
     span {
 
@@ -111,6 +110,20 @@ main {
     img {
         width: 20px;
         display: inline;
+    }
+}
+
+.menu-icon{
+
+    img {
+
+        opacity: 70%;
+
+    }
+
+    img:hover {
+
+        opacity: 100%;
     }
 }
 
@@ -136,6 +149,7 @@ main {
         font-size: 1.2rem;
         background-color: var(--mid-color);
         padding: 0.5rem;
+
     }
 
 }
@@ -158,7 +172,6 @@ main {
         font-weight: 600;
         font-size: 0.9rem;
         padding-left: 0.5rem;
-
 
     }
 }
@@ -189,6 +202,10 @@ main {
 
 .download {
 
+    :hover {
+
+        color: var(--light-color);
+    }
     
     img {
 
@@ -245,40 +262,52 @@ main {
 
     border: 2px solid var(--light-color);
     background-color: transparent;
-    padding: 1rem 2rem;
+    padding: 0.7rem 2rem;
     margin-right: 1rem;
     margin-left: 1rem;
     border-radius: 2rem;
     vertical-align: middle;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-align: center;
 
-}
+    a:hover {
 
+        font-size: 0.8rem;
+
+    }
+
+}
 
 .filter {
 
     justify-content: center;
     flex-wrap: wrap;
     font-size: 0.8rem;
+    font-weight: 700;
 
 
     a:link,
     a:visited {
 
         text-decoration: none;
-        color: var(--light-color);
+        color: var(--mid-color);
         padding-inline: 1.5rem;
         padding-top: 1rem;
 
     }
 
-    span:hover {
+    a:hover {
 
-        border-bottom: 2px solid greenyellow;
+        color: var(--light-color);
 
+        span {
+
+            border-bottom: 2px solid greenyellow;      
+        }
+    
     }
 
+   
 }
 
 /*GALLERY //////////////*/
@@ -401,4 +430,15 @@ main {
         font-weight: 600;
         color: var(--mid-color);
     }
+}
+
+/* PLAYER CENTER */
+
+.player-center {
+
+
+    justify-content: center;
+    justify-items: center;
+    align-items: baseline;
+    align-content: center;
 }

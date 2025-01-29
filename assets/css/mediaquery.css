@@ -45,8 +45,45 @@
 
         span {
             padding-left: 0.5rem;
+            color: var(--mid-color);
+        }
+
+    }
+
+    .menu-icon:hover {
+
+        span {
+
+            color: var(--light-color);
         }
     }
+
+    .menu-icon:hover {
+
+        img {
+
+            opacity: 100%;
+        }
+    }
+
+    .p-icon:hover {
+
+        .fa-plus {
+
+            background-color: var(--light-color);
+        }
+
+    }
+
+    .p-icon:hover {
+
+        span {
+
+            color: var(--light-color);
+        }
+
+    }
+
 
     .playlist {
 
@@ -55,12 +92,18 @@
         color: var(--light-color);
         margin-left: 1rem;
 
-    
+
         a:link,
         a:visited {
 
             color: var(--mid-color);
             text-decoration: none;
+
+        }
+
+        a:hover {
+
+            color: var(--light-color);
 
         }
     }
@@ -70,11 +113,11 @@
         height: 15%;
         align-items: flex-start;
         justify-content: flex-end;
-        
+
         hr {
 
             visibility: visible;
-    
+
         }
 
         span {
@@ -123,19 +166,9 @@
         width: 230px;
     }
 
-   
+
 
     /*MAIN*/
-
-    .bt-upgrade {
-
-        a:hover {
-
-            font-size: 1rem;
-
-        }
-
-    }
 
     .box-album {
 
