@@ -24,18 +24,37 @@
 
     .menu {
 
+        height: 15%;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 0;
+        padding-left: 1rem;
+
         span {
 
             display: unset;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+    }
+
+    .menu-icon {
+
+        align-items: center;
+
+        span {
+            padding-left: 0.5rem;
         }
     }
 
     .playlist {
 
-        height: 30%;
+        height: 55%;
         display: block;
         color: var(--light-color);
         margin-left: 1rem;
+
     
         a:link,
         a:visited {
@@ -48,7 +67,7 @@
 
     .us-do {
 
-        height: 35%;
+        height: 15%;
         align-items: flex-start;
         justify-content: flex-end;
         
