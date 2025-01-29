@@ -19,7 +19,7 @@
     padding: 0;
     box-sizing: border-box;
     transition: all 400ms;
-    border: 1px grey dashed;
+    /*border: 1px grey dashed;*/
 }
 
 .flex {
@@ -79,7 +79,8 @@ main {
 .logo {
 
     width: 30px;
-    height: 7%; /*///////////////////*/
+    height: 7%;
+    /*///////////////////*/
     margin: auto;
     padding-top: 0.5rem;
 }
@@ -93,7 +94,8 @@ main {
 
 .menu {
 
-    height: 20%; /*///////////////////*/
+    height: 20%;
+    /*///////////////////*/
     padding-top: 1rem;
     flex-direction: column;
     align-items: center;
@@ -128,11 +130,12 @@ main {
 
 .us-do {
 
-height: 73%; /*///////////////////*/
-
-flex-direction: column;
-align-items: center;
-justify-content: flex-end;
+    padding: 1rem;
+    height: 73%;
+    /*///////////////////*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 
 
     span {
@@ -323,4 +326,3 @@ main {
 /* END MAIN //////////////*/
 
 /*BOTTOM ////////////////*/
-
