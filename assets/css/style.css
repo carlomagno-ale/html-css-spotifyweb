@@ -18,6 +18,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: all 400ms;
     /*border: 1px grey dashed;*/
 }
 
@@ -60,10 +61,6 @@ main {
     background-color: var(--less-dark-color);
 }
 
-.filter {
-
-    height: 95px;
-}
 
 .bottom {
 
@@ -156,6 +153,15 @@ main {
 
 }
 
+hr {
+
+    margin: auto;
+    width: 80%;
+    margin-block: 0.5rem;
+    border-color: var(--mid-color);
+    display: none;
+}
+
 /* END SIDEBAR */
 
 /*MAIN*/
@@ -241,18 +247,16 @@ main {
 
 .category {
 
-    margin: 1rem;
+    margin-left: 1rem;
     display: flex;
     flex-wrap: wrap;
-
+    gap: 1rem;
 
 }
 
 .box-album {
 
-    max-width: 170px;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    width: calc(100% / 2 - 1rem );
     text-align: center;
     line-height: 1.5rem;
 
@@ -279,6 +283,7 @@ main {
 .cover {
 
     position: relative;
+
 }
 
 .overlay {

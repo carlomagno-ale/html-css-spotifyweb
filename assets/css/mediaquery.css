@@ -78,6 +78,11 @@
         width: 230px;
     }
 
+    hr {
+
+        display: block;
+    }
+
     /*MAIN*/
 
     .bt-upgrade {
@@ -87,6 +92,12 @@
             font-size: 1rem;
 
         }
+
+    }
+
+    .box-album {
+
+        width: calc(100% / 2 - 1rem);
 
     }
 
@@ -101,6 +112,12 @@
         /*debug*/
         background-color: rgb(94, 25, 25);
     }
+
+    .box-album {
+
+        width: calc(100% / 4 - 1rem);
+
+    }
 }
 
 /* 1200///////////////////////////////////*/
@@ -112,5 +129,11 @@
 
         /*debug*/
         background-color: rgb(104, 50, 104);
+    }
+
+    .box-album {
+
+        width: calc(100% / 6 - 1rem);
+
     }
 }
