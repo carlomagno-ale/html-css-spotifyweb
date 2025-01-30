@@ -19,8 +19,9 @@
     padding: 0;
     box-sizing: border-box;
     /*transition: all 500ms;*/
-    /*border: 1px grey dashed;*/
+    border: 1px grey dashed;
 }
+
 
 .flex {
 
@@ -38,6 +39,7 @@ img {
 body {
 
     font-family: "Montserrat", serif;
+    background-color: var(--main-color);
 }
 
 /*STRUCTURE*/
@@ -125,6 +127,11 @@ main {
 
         opacity: 100%;
     }
+}
+
+.green-bar {
+
+    border: 3px greenyellow; /*////////////////*/
 }
 
 .playlist {
@@ -231,9 +238,6 @@ main {
 
 }
 
-
-
-
 /* END SIDEBAR ////////////////*/
 
 /*MAIN ///////////////////////*/
@@ -285,6 +289,10 @@ main {
     font-size: 0.8rem;
     font-weight: 700;
 
+    span {
+
+        border-bottom: 2px solid greenyellow;      
+    }
 
     a:link,
     a:visited {
@@ -300,14 +308,8 @@ main {
 
         color: var(--light-color);
 
-        span {
-
-            border-bottom: 2px solid greenyellow;      
-        }
-    
     }
 
-   
 }
 
 /*GALLERY //////////////*/
@@ -384,6 +386,7 @@ main {
     background-color: rgba(0, 0, 0, 0.586);
     color: var(--light-color);
 
+
 }
 
 .overlay:before {
@@ -392,6 +395,14 @@ main {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
+}
+
+.round {
+
+    img { 
+
+        border-radius: 50%;
+    }
 }
 
 /* END MAIN //////////////*/
