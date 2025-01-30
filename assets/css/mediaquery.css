@@ -4,8 +4,8 @@
 
     main {
 
-        /*debug*/
-        background-color: rgba(18, 68, 51, 0.705);
+        /*debug
+        background-color: rgba(18, 68, 51, 0.705);*/
         width: calc(100vw - 230px);
     }
 
@@ -204,8 +204,8 @@
 
     main {
 
-        /*debug*/
-        background-color: rgb(94, 25, 25);
+        /*debug
+        background-color: rgb(94, 25, 25);*/
     }
 
     .box-album {
@@ -222,8 +222,8 @@
 
     main {
 
-        /*debug*/
-        background-color: rgb(104, 50, 104);
+        /*debug
+        background-color: rgb(104, 50, 104);*/
     }
 
     .box-album {
