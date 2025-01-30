@@ -465,6 +465,12 @@ main {
         font-weight: 600;
         color: var(--mid-color);
     }
+
+    span:hover {
+
+        text-decoration: underline;
+        color: var(--light-color);
+    }
 }
 
 .heart-folder {
@@ -475,6 +481,11 @@ main {
 
     i {
         margin: 0.3rem;
+    }
+
+    i:hover {
+
+        color: var(--light-color);
     }
 
 }
@@ -496,7 +507,17 @@ main {
 .player-button {
 
     align-items: center;
-    gap: 2rem;
+    gap: 1.5rem;
+
+    .fa-circle-play {
+
+        height: 2rem;
+    }
+
+    .fa-circle-play:hover {
+
+        font-size: 2.1rem;
+    }
 
 }
 
@@ -521,21 +542,6 @@ main {
     color: var(--light-color);
     font-size: 0.9rem;
 }
-
-/*.sound-bar-box {
-
-    width: 100%;
-    margin-right: 1rem;
-}
-
-.sound-bar {
-
-    color: var(--mid-color);
-    width: 100%;
-    border: 3px solid;
-    border-radius: 5px;
-
-}*/
 
 .play-sx {
 
