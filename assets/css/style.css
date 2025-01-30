@@ -115,7 +115,7 @@ main {
     }
 }
 
-.menu-icon{
+.menu-icon {
 
     img {
 
@@ -131,7 +131,8 @@ main {
 
 .green-bar {
 
-    border: 3px greenyellow; /*////////////////*/
+    border: 3px greenyellow;
+    /*////////////////*/
 }
 
 .playlist {
@@ -193,13 +194,14 @@ main {
     justify-content: flex-end;
 
 
+
     span {
 
         display: none;
     }
 
     hr {
-        
+
         width: 100%;
         margin-block: 0.5rem;
         border-color: var(--mid-color);
@@ -213,7 +215,7 @@ main {
 
         color: var(--light-color);
     }
-    
+
     img {
 
         width: 20px;
@@ -291,7 +293,7 @@ main {
 
     span {
 
-        border-bottom: 2px solid greenyellow;      
+        border-bottom: 2px solid greenyellow;
     }
 
     a:link,
@@ -389,17 +391,38 @@ main {
 
 }
 
+.box-album:hover .overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-album .round:hover .overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    i {
+
+        display: none;
+    }
+}
+
+/* soluzione alternativa 
+
 .overlay:before {
 
     content: '';
     display: inline-block;
     height: 100%;
     vertical-align: middle;
-}
+
+}*/
 
 .round {
 
-    img { 
+    img {
 
         border-radius: 50%;
     }
@@ -416,7 +439,7 @@ main {
     height: 100%;
     align-items: center;
     padding-left: 1rem;
-  
+
 }
 
 .mini-album {
@@ -446,9 +469,13 @@ main {
 
 .heart-folder {
 
-padding-inline: 2rem;
-font-size: 1.3rem;
-color: var(--mid-color);
+    padding-inline: 2rem;
+    font-size: 1.3rem;
+    color: var(--mid-color);
+
+    i {
+        margin: 0.3rem;
+    }
 
 }
 
