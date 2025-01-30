@@ -434,7 +434,7 @@ main {
 
 /* PLAYER SX */
 
-.play-album {
+.play-sx {
 
     height: 100%;
     align-items: center;
@@ -485,11 +485,74 @@ main {
 
 .play-center {
 
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
     margin: auto;
     color: var(--light-color);
 
+}
+
+
+.player-button {
+
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.bt-small {
+
+    font-size: 0.6rem;
+    padding-inline: 1rem;
+
+}
+
+.progress-bar {
+
+    color: var(--mid-color);
+    width: 100%;
+    border: 3px solid;
+    border-radius: 5px;
+
+}
+
+
+.player-bar-box {
+
+    width: 400px;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.play-dx {
+
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--light-color);
+    font-size: 0.9rem;
+}
+
+
+.sound-bar {
+
+    color: var(--mid-color);
+    width: 50%;
+    border: 3px solid;
+    border-radius: 5px;
+
+}
+
+.play-sx {
+
+    width: 30%;
+}
+
+.play-dx {
+
+    width: 20%;
+}
+
+.play-center {
+
+    width: 50%;
 }
