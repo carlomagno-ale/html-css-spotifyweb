@@ -8,6 +8,7 @@
     --main-color: #141922;
     --player-color: #282828;
     --mid-color: #707070;
+    --check-color: greenyellow;
 }
 
 
@@ -19,7 +20,7 @@
     padding: 0;
     box-sizing: border-box;
     /*transition: all 500ms;*/
-    /*border: 1px grey dashed;*/
+    border: 1px grey dashed;
 }
 
 
@@ -89,7 +90,7 @@ main {
 
 .logo-L {
 
-    width: 135px;
+    min-width: 135px;
     margin: 1.5rem;
     margin-left: 1rem;
     display: none;
@@ -131,7 +132,7 @@ main {
 
 .green-bar {
 
-    border: 3px greenyellow;
+    border: 3px var(--check-color);
     /*////////////////*/
 }
 
@@ -192,8 +193,6 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-
-
 
     span {
 
@@ -293,7 +292,7 @@ main {
 
     span {
 
-        border-bottom: 2px solid greenyellow;
+        border-bottom: 2px solid var(--check-color);
     }
 
     a:link,
@@ -500,7 +499,6 @@ main {
     align-items: center;
     margin: auto;
     color: var(--light-color);
-
 }
 
 
@@ -571,7 +569,7 @@ main {
 
     span:hover {
 
-        background-color: greenyellow;
+        background-color: var(--check-color);
     }
 }
 
@@ -597,7 +595,7 @@ main {
 
     span:hover {
 
-        background-color: greenyellow;
+        background-color: var(--check-color);
     }
 }
 
