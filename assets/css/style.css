@@ -507,16 +507,6 @@ main {
 
 }
 
-.progress-bar {
-
-    color: var(--mid-color);
-    width: 80%;
-    border: 3px solid;
-    border-radius: 5px;
-
-}
-
-
 .player-bar-box {
 
     width: 100%;
@@ -562,4 +552,30 @@ main {
     width: 50%;
 }
 
+
+.progress-box {
+    width: 500px;
+}
+
+.progress-bar {
+
+    width: 100%;
+    background-color: var(--mid-color);
+    border-radius: 3px;
+
+    span:hover {
+
+        background-color: greenyellow;
+    }
+}
+
+.progress-value {
+
+    display: block;
+    height: 4px;
+    background-color: var(--light-color);
+    border-radius: 3px;
+    width: 20%;
+    
+}
 
