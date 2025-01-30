@@ -19,7 +19,7 @@
     padding: 0;
     box-sizing: border-box;
     /*transition: all 500ms;*/
-    border: 1px grey dashed;
+    /*border: 1px grey dashed;*/
 }
 
 
@@ -409,6 +409,8 @@ main {
 
 /*BOTTOM ////////////////*/
 
+/* PLAYER SX */
+
 .play-album {
 
     height: 100%;
@@ -434,7 +436,6 @@ main {
 
     }
 
-
     span {
 
         font-size: 0.6rem;
@@ -443,13 +444,25 @@ main {
     }
 }
 
+.heart-folder {
+
+padding-inline: 2rem;
+font-size: 1.3rem;
+color: var(--mid-color);
+
+}
+
+
 /* PLAYER CENTER */
 
-.player-center {
 
+.play-center {
 
+    display: flex;
+    align-items: center;
     justify-content: center;
-    justify-items: center;
-    align-items: baseline;
-    align-content: center;
+    gap: 0.5rem;
+    margin: auto;
+    color: var(--light-color);
+
 }
