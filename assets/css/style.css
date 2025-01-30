@@ -510,7 +510,7 @@ main {
 .progress-bar {
 
     color: var(--mid-color);
-    width: 100%;
+    width: 80%;
     border: 3px solid;
     border-radius: 5px;
 
@@ -519,7 +519,7 @@ main {
 
 .player-bar-box {
 
-    width: 400px;
+    width: 100%;
     align-items: center;
     margin-top: 0.5rem;
 }
@@ -532,11 +532,16 @@ main {
     font-size: 0.9rem;
 }
 
+.sound-bar-box {
+
+    width: 100%;
+    margin-right: 1rem;
+}
 
 .sound-bar {
 
     color: var(--mid-color);
-    width: 50%;
+    width: 100%;
     border: 3px solid;
     border-radius: 5px;
 
